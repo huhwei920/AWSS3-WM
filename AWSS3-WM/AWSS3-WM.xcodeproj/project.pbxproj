@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9782D57D2C53A46C0064ADEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D57C2C53A46C0064ADEB /* AppDelegate.m */; };
+		9782D5802C53A46C0064ADEB /* DocumentBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D57F2C53A46C0064ADEB /* DocumentBrowserViewController.m */; };
+		9782D5832C53A46C0064ADEB /* DocumentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5822C53A46C0064ADEB /* DocumentViewController.m */; };
+		9782D5862C53A46C0064ADEB /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5852C53A46C0064ADEB /* Document.m */; };
+		9782D5892C53A46C0064ADEB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9782D5882C53A46C0064ADEB /* Base */; };
+		9782D58B2C53A46D0064ADEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9782D58A2C53A46D0064ADEB /* Assets.xcassets */; };
+		9782D58E2C53A46D0064ADEB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9782D58D2C53A46D0064ADEB /* Base */; };
+		9782D5912C53A46D0064ADEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5902C53A46D0064ADEB /* main.m */; };
+		9782D5B92C53A48F0064ADEB /* AWSS3CreateMultipartUploadRequest+RequestHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5992C53A48F0064ADEB /* AWSS3CreateMultipartUploadRequest+RequestHeaders.m */; };
+		9782D5BA2C53A48F0064ADEB /* AWSS3Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D59B2C53A48F0064ADEB /* AWSS3Model.m */; };
+		9782D5BB2C53A48F0064ADEB /* AWSS3PreSignedURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D59D2C53A48F0064ADEB /* AWSS3PreSignedURL.m */; };
+		9782D5BC2C53A48F0064ADEB /* AWSS3RequestRetryHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D59F2C53A48F0064ADEB /* AWSS3RequestRetryHandler.m */; };
+		9782D5BD2C53A48F0064ADEB /* AWSS3Resources.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5A12C53A48F0064ADEB /* AWSS3Resources.m */; };
+		9782D5BE2C53A48F0064ADEB /* AWSS3Serializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5A32C53A48F0064ADEB /* AWSS3Serializer.m */; };
+		9782D5BF2C53A48F0064ADEB /* AWSS3Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5A52C53A48F0064ADEB /* AWSS3Service.m */; };
+		9782D5C02C53A48F0064ADEB /* AWSS3TransferUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5A82C53A48F0064ADEB /* AWSS3TransferUtility.m */; };
+		9782D5C12C53A48F0064ADEB /* AWSS3TransferUtility+EnumerateBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5AA2C53A48F0064ADEB /* AWSS3TransferUtility+EnumerateBlocks.m */; };
+		9782D5C22C53A48F0064ADEB /* AWSS3TransferUtility+HeaderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5AC2C53A48F0064ADEB /* AWSS3TransferUtility+HeaderHelper.m */; };
+		9782D5C32C53A48F0064ADEB /* AWSS3TransferUtility+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5AD2C53A48F0064ADEB /* AWSS3TransferUtility+Validation.m */; };
+		9782D5C42C53A48F0064ADEB /* AWSS3TransferUtilityBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5AF2C53A48F0064ADEB /* AWSS3TransferUtilityBlocks.m */; };
+		9782D5C52C53A48F0064ADEB /* AWSS3TransferUtilityDatabaseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5B12C53A48F0064ADEB /* AWSS3TransferUtilityDatabaseHelper.m */; };
+		9782D5C62C53A48F0064ADEB /* AWSS3TransferUtilityTasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5B32C53A48F0064ADEB /* AWSS3TransferUtilityTasks.m */; };
+		9782D5C72C53A48F0064ADEB /* AWSS3TransferUtilityTasks+Completion.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782D5B52C53A48F0064ADEB /* AWSS3TransferUtilityTasks+Completion.m */; };
+		9782D5C82C53A48F0064ADEB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9782D5B62C53A48F0064ADEB /* Info.plist */; };
+		9782D5C92C53A48F0064ADEB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9782D5B72C53A48F0064ADEB /* PrivacyInfo.xcprivacy */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9782D5782C53A46C0064ADEB /* AWSS3-WM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AWSS3-WM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9782D57B2C53A46C0064ADEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9782D57C2C53A46C0064ADEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9782D57E2C53A46C0064ADEB /* DocumentBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentBrowserViewController.h; sourceTree = "<group>"; };
+		9782D57F2C53A46C0064ADEB /* DocumentBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentBrowserViewController.m; sourceTree = "<group>"; };
+		9782D5812C53A46C0064ADEB /* DocumentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DocumentViewController.h; sourceTree = "<group>"; };
+		9782D5822C53A46C0064ADEB /* DocumentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentViewController.m; sourceTree = "<group>"; };
+		9782D5842C53A46C0064ADEB /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		9782D5852C53A46C0064ADEB /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		9782D5882C53A46C0064ADEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9782D58A2C53A46D0064ADEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9782D58D2C53A46D0064ADEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9782D58F2C53A46D0064ADEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9782D5902C53A46D0064ADEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9782D5972C53A48F0064ADEB /* AWSS3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3.h; sourceTree = "<group>"; };
+		9782D5982C53A48F0064ADEB /* AWSS3CreateMultipartUploadRequest+RequestHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSS3CreateMultipartUploadRequest+RequestHeaders.h"; sourceTree = "<group>"; };
+		9782D5992C53A48F0064ADEB /* AWSS3CreateMultipartUploadRequest+RequestHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSS3CreateMultipartUploadRequest+RequestHeaders.m"; sourceTree = "<group>"; };
+		9782D59A2C53A48F0064ADEB /* AWSS3Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3Model.h; sourceTree = "<group>"; };
+		9782D59B2C53A48F0064ADEB /* AWSS3Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3Model.m; sourceTree = "<group>"; };
+		9782D59C2C53A48F0064ADEB /* AWSS3PreSignedURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3PreSignedURL.h; sourceTree = "<group>"; };
+		9782D59D2C53A48F0064ADEB /* AWSS3PreSignedURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3PreSignedURL.m; sourceTree = "<group>"; };
+		9782D59E2C53A48F0064ADEB /* AWSS3RequestRetryHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3RequestRetryHandler.h; sourceTree = "<group>"; };
+		9782D59F2C53A48F0064ADEB /* AWSS3RequestRetryHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3RequestRetryHandler.m; sourceTree = "<group>"; };
+		9782D5A02C53A48F0064ADEB /* AWSS3Resources.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3Resources.h; sourceTree = "<group>"; };
+		9782D5A12C53A48F0064ADEB /* AWSS3Resources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3Resources.m; sourceTree = "<group>"; };
+		9782D5A22C53A48F0064ADEB /* AWSS3Serializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3Serializer.h; sourceTree = "<group>"; };
+		9782D5A32C53A48F0064ADEB /* AWSS3Serializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3Serializer.m; sourceTree = "<group>"; };
+		9782D5A42C53A48F0064ADEB /* AWSS3Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3Service.h; sourceTree = "<group>"; };
+		9782D5A52C53A48F0064ADEB /* AWSS3Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3Service.m; sourceTree = "<group>"; };
+		9782D5A62C53A48F0064ADEB /* AWSS3TransferUtility_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3TransferUtility_private.h; sourceTree = "<group>"; };
+		9782D5A72C53A48F0064ADEB /* AWSS3TransferUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3TransferUtility.h; sourceTree = "<group>"; };
+		9782D5A82C53A48F0064ADEB /* AWSS3TransferUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3TransferUtility.m; sourceTree = "<group>"; };
+		9782D5A92C53A48F0064ADEB /* AWSS3TransferUtility+EnumerateBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSS3TransferUtility+EnumerateBlocks.h"; sourceTree = "<group>"; };
+		9782D5AA2C53A48F0064ADEB /* AWSS3TransferUtility+EnumerateBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSS3TransferUtility+EnumerateBlocks.m"; sourceTree = "<group>"; };
+		9782D5AB2C53A48F0064ADEB /* AWSS3TransferUtility+HeaderHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSS3TransferUtility+HeaderHelper.h"; sourceTree = "<group>"; };
+		9782D5AC2C53A48F0064ADEB /* AWSS3TransferUtility+HeaderHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSS3TransferUtility+HeaderHelper.m"; sourceTree = "<group>"; };
+		9782D5AD2C53A48F0064ADEB /* AWSS3TransferUtility+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSS3TransferUtility+Validation.m"; sourceTree = "<group>"; };
+		9782D5AE2C53A48F0064ADEB /* AWSS3TransferUtilityBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3TransferUtilityBlocks.h; sourceTree = "<group>"; };
+		9782D5AF2C53A48F0064ADEB /* AWSS3TransferUtilityBlocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3TransferUtilityBlocks.m; sourceTree = "<group>"; };
+		9782D5B02C53A48F0064ADEB /* AWSS3TransferUtilityDatabaseHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3TransferUtilityDatabaseHelper.h; sourceTree = "<group>"; };
+		9782D5B12C53A48F0064ADEB /* AWSS3TransferUtilityDatabaseHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3TransferUtilityDatabaseHelper.m; sourceTree = "<group>"; };
+		9782D5B22C53A48F0064ADEB /* AWSS3TransferUtilityTasks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWSS3TransferUtilityTasks.h; sourceTree = "<group>"; };
+		9782D5B32C53A48F0064ADEB /* AWSS3TransferUtilityTasks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWSS3TransferUtilityTasks.m; sourceTree = "<group>"; };
+		9782D5B42C53A48F0064ADEB /* AWSS3TransferUtilityTasks+Completion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWSS3TransferUtilityTasks+Completion.h"; sourceTree = "<group>"; };
+		9782D5B52C53A48F0064ADEB /* AWSS3TransferUtilityTasks+Completion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AWSS3TransferUtilityTasks+Completion.m"; sourceTree = "<group>"; };
+		9782D5B62C53A48F0064ADEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9782D5B72C53A48F0064ADEB /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9782D5752C53A46C0064ADEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9782D56F2C53A46C0064ADEB = {
+			isa = PBXGroup;
+			children = (
+				9782D5B82C53A48F0064ADEB /* AWSS3 */,
+				9782D57A2C53A46C0064ADEB /* AWSS3-WM */,
+				9782D5792C53A46C0064ADEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9782D5792C53A46C0064ADEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9782D5782C53A46C0064ADEB /* AWSS3-WM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9782D57A2C53A46C0064ADEB /* AWSS3-WM */ = {
+			isa = PBXGroup;
+			children = (
+				9782D57B2C53A46C0064ADEB /* AppDelegate.h */,
+				9782D57C2C53A46C0064ADEB /* AppDelegate.m */,
+				9782D57E2C53A46C0064ADEB /* DocumentBrowserViewController.h */,
+				9782D57F2C53A46C0064ADEB /* DocumentBrowserViewController.m */,
+				9782D5812C53A46C0064ADEB /* DocumentViewController.h */,
+				9782D5822C53A46C0064ADEB /* DocumentViewController.m */,
+				9782D5842C53A46C0064ADEB /* Document.h */,
+				9782D5852C53A46C0064ADEB /* Document.m */,
+				9782D5872C53A46C0064ADEB /* Main.storyboard */,
+				9782D58A2C53A46D0064ADEB /* Assets.xcassets */,
+				9782D58C2C53A46D0064ADEB /* LaunchScreen.storyboard */,
+				9782D58F2C53A46D0064ADEB /* Info.plist */,
+				9782D5902C53A46D0064ADEB /* main.m */,
+			);
+			path = "AWSS3-WM";
+			sourceTree = "<group>";
+		};
+		9782D5B82C53A48F0064ADEB /* AWSS3 */ = {
+			isa = PBXGroup;
+			children = (
+				9782D5972C53A48F0064ADEB /* AWSS3.h */,
+				9782D5982C53A48F0064ADEB /* AWSS3CreateMultipartUploadRequest+RequestHeaders.h */,
+				9782D5992C53A48F0064ADEB /* AWSS3CreateMultipartUploadRequest+RequestHeaders.m */,
+				9782D59A2C53A48F0064ADEB /* AWSS3Model.h */,
+				9782D59B2C53A48F0064ADEB /* AWSS3Model.m */,
+				9782D59C2C53A48F0064ADEB /* AWSS3PreSignedURL.h */,
+				9782D59D2C53A48F0064ADEB /* AWSS3PreSignedURL.m */,
+				9782D59E2C53A48F0064ADEB /* AWSS3RequestRetryHandler.h */,
+				9782D59F2C53A48F0064ADEB /* AWSS3RequestRetryHandler.m */,
+				9782D5A02C53A48F0064ADEB /* AWSS3Resources.h */,
+				9782D5A12C53A48F0064ADEB /* AWSS3Resources.m */,
+				9782D5A22C53A48F0064ADEB /* AWSS3Serializer.h */,
+				9782D5A32C53A48F0064ADEB /* AWSS3Serializer.m */,
+				9782D5A42C53A48F0064ADEB /* AWSS3Service.h */,
+				9782D5A52C53A48F0064ADEB /* AWSS3Service.m */,
+				9782D5A62C53A48F0064ADEB /* AWSS3TransferUtility_private.h */,
+				9782D5A72C53A48F0064ADEB /* AWSS3TransferUtility.h */,
+				9782D5A82C53A48F0064ADEB /* AWSS3TransferUtility.m */,
+				9782D5A92C53A48F0064ADEB /* AWSS3TransferUtility+EnumerateBlocks.h */,
+				9782D5AA2C53A48F0064ADEB /* AWSS3TransferUtility+EnumerateBlocks.m */,
+				9782D5AB2C53A48F0064ADEB /* AWSS3TransferUtility+HeaderHelper.h */,
+				9782D5AC2C53A48F0064ADEB /* AWSS3TransferUtility+HeaderHelper.m */,
+				9782D5AD2C53A48F0064ADEB /* AWSS3TransferUtility+Validation.m */,
+				9782D5AE2C53A48F0064ADEB /* AWSS3TransferUtilityBlocks.h */,
+				9782D5AF2C53A48F0064ADEB /* AWSS3TransferUtilityBlocks.m */,
+				9782D5B02C53A48F0064ADEB /* AWSS3TransferUtilityDatabaseHelper.h */,
+				9782D5B12C53A48F0064ADEB /* AWSS3TransferUtilityDatabaseHelper.m */,
+				9782D5B22C53A48F0064ADEB /* AWSS3TransferUtilityTasks.h */,
+				9782D5B32C53A48F0064ADEB /* AWSS3TransferUtilityTasks.m */,
+				9782D5B42C53A48F0064ADEB /* AWSS3TransferUtilityTasks+Completion.h */,
+				9782D5B52C53A48F0064ADEB /* AWSS3TransferUtilityTasks+Completion.m */,
+				9782D5B62C53A48F0064ADEB /* Info.plist */,
+				9782D5B72C53A48F0064ADEB /* PrivacyInfo.xcprivacy */,
+			);
+			path = AWSS3;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9782D5772C53A46C0064ADEB /* AWSS3-WM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9782D5942C53A46D0064ADEB /* Build configuration list for PBXNativeTarget "AWSS3-WM" */;
+			buildPhases = (
+				9782D5742C53A46C0064ADEB /* Sources */,
+				9782D5752C53A46C0064ADEB /* Frameworks */,
+				9782D5762C53A46C0064ADEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWSS3-WM";
+			productName = "AWSS3-WM";
+			productReference = 9782D5782C53A46C0064ADEB /* AWSS3-WM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9782D5702C53A46C0064ADEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9782D5772C53A46C0064ADEB = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 9782D5732C53A46C0064ADEB /* Build configuration list for PBXProject "AWSS3-WM" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9782D56F2C53A46C0064ADEB;
+			productRefGroup = 9782D5792C53A46C0064ADEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9782D5772C53A46C0064ADEB /* AWSS3-WM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9782D5762C53A46C0064ADEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9782D5C82C53A48F0064ADEB /* Info.plist in Resources */,
+				9782D58B2C53A46D0064ADEB /* Assets.xcassets in Resources */,
+				9782D58E2C53A46D0064ADEB /* Base in Resources */,
+				9782D5C92C53A48F0064ADEB /* PrivacyInfo.xcprivacy in Resources */,
+				9782D5892C53A46C0064ADEB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9782D5742C53A46C0064ADEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9782D5B92C53A48F0064ADEB /* AWSS3CreateMultipartUploadRequest+RequestHeaders.m in Sources */,
+				9782D5BD2C53A48F0064ADEB /* AWSS3Resources.m in Sources */,
+				9782D5912C53A46D0064ADEB /* main.m in Sources */,
+				9782D5C22C53A48F0064ADEB /* AWSS3TransferUtility+HeaderHelper.m in Sources */,
+				9782D5C32C53A48F0064ADEB /* AWSS3TransferUtility+Validation.m in Sources */,
+				9782D5C02C53A48F0064ADEB /* AWSS3TransferUtility.m in Sources */,
+				9782D5C72C53A48F0064ADEB /* AWSS3TransferUtilityTasks+Completion.m in Sources */,
+				9782D5BC2C53A48F0064ADEB /* AWSS3RequestRetryHandler.m in Sources */,
+				9782D5862C53A46C0064ADEB /* Document.m in Sources */,
+				9782D5BB2C53A48F0064ADEB /* AWSS3PreSignedURL.m in Sources */,
+				9782D5802C53A46C0064ADEB /* DocumentBrowserViewController.m in Sources */,
+				9782D5C42C53A48F0064ADEB /* AWSS3TransferUtilityBlocks.m in Sources */,
+				9782D5C62C53A48F0064ADEB /* AWSS3TransferUtilityTasks.m in Sources */,
+				9782D5832C53A46C0064ADEB /* DocumentViewController.m in Sources */,
+				9782D5BA2C53A48F0064ADEB /* AWSS3Model.m in Sources */,
+				9782D5BE2C53A48F0064ADEB /* AWSS3Serializer.m in Sources */,
+				9782D57D2C53A46C0064ADEB /* AppDelegate.m in Sources */,
+				9782D5C12C53A48F0064ADEB /* AWSS3TransferUtility+EnumerateBlocks.m in Sources */,
+				9782D5C52C53A48F0064ADEB /* AWSS3TransferUtilityDatabaseHelper.m in Sources */,
+				9782D5BF2C53A48F0064ADEB /* AWSS3Service.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9782D5872C53A46C0064ADEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9782D5882C53A46C0064ADEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9782D58C2C53A46D0064ADEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9782D58D2C53A46D0064ADEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9782D5922C53A46D0064ADEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9782D5932C53A46D0064ADEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9782D5952C53A46D0064ADEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AWSS3-WM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dineroya.AWSS3-WM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9782D5962C53A46D0064ADEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AWSS3-WM/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dineroya.AWSS3-WM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9782D5732C53A46C0064ADEB /* Build configuration list for PBXProject "AWSS3-WM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9782D5922C53A46D0064ADEB /* Debug */,
+				9782D5932C53A46D0064ADEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9782D5942C53A46D0064ADEB /* Build configuration list for PBXNativeTarget "AWSS3-WM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9782D5952C53A46D0064ADEB /* Debug */,
+				9782D5962C53A46D0064ADEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9782D5702C53A46C0064ADEB /* Project object */;
+}
